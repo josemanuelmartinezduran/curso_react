@@ -1,8 +1,15 @@
-const a = (i)=>{console.log("El parámetro vale "+i.toString())}
+/* const parametros = (i)=>{console.log("El parámetro vale "+i);}
+parametros(console.log); */
 
-const b = (f, a)=>{f(a)}
+al_cuadrado = (n) => {
+    return n*n;
+}
+/* const resultado = al_cuadrado(2); */
+/* console.log(resultado) */
 
-b(a, 3);
+const callback = (f, a)=>{return f(a)}
+callback(console.log, "Hola mundo");
+
 
 /* Hacer una funcion callback que determine si un numero es par */
 
