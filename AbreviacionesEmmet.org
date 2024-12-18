@@ -1,0 +1,6 @@
+* escribir el elemento ejemplo h1 = <h1></h1>
+* agregar una clase h1.ejemplo =  <h1 className="ejemplo"></h1>
+* agregar un id h1#ejemplo = <h1 id="ejemplo"></h1>
+* multiplicar h1*2 = <h1></h1> <h1></h1>
+* jerarquia h1>ul = <h1> <ul></ul> </h1>
+* el elemento div div.container = .container = <div className="container"></div> 
