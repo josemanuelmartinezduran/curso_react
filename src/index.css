@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.cleanTable{
+width: 100%;
+}
+
+.cleanTable th{
+font-weight: bold;
+}
+
+.cleanTable tr{
+height: 1.5em;
+}
+
+.cleanTable td, .cleanTable th{
+border-bottom: #ddd solid 1px;
+text-align: center;
+}
+
+.cleanTable .text-left{
+text-align: left;
+}
+
+.cleanTable .text-right{
+text-align: right;
+}
+
+.cleanTable .text-center{
+text-align: center;
+}
+
+.cleanTable .high{
+background-color: #EEEEEE;
+}
+
+.cleanTable .border-right{
+border-right: #444 solid 1px;
+}
