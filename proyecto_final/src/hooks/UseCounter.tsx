@@ -26,7 +26,6 @@ export default function Counter() {
         <p>Contador: {count}</p>
         <button onClick={incrementar}>Incrementar</button>
         <button onClick={decrementar}>Decrementar</button>
-        <button onClick={() => incrementar(5)}>Incrementar por 5</button>
         <button onClick={reset}>Reiniciar</button>
       </div>
     );
